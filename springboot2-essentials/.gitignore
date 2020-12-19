@@ -32,4 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 
-springboot2-essentials/src/main/resources/application.yml
+/src/main/resources/application.yml
