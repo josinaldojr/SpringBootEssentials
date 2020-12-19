@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  db:
+    image: mysql
+    container_name: mysq
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "33060:33060"
+    volumes:
+      - devdojo_data:/val/lib/mysql
+
+volumes:
+  devdojo_data:
