@@ -6,14 +6,14 @@ public class AnimeCreator {
     public static Anime createAnimeToBeSaved(){
         return Anime
                 .builder()
-                .name("Sakura")
+                .name("Hana montana")
                 .build();
     }
 
     public static Anime createValidAnime(){
         return Anime
                 .builder()
-                .name("Sakura")
+                .name("Hana")
                 .id(1L)
                 .build();
     }
